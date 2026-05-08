@@ -25,7 +25,7 @@ public class E01Variable {
 
         // 데이터 타입
         boolean boo = true;
-        byte bt =-128;
+        byte bt = -128;
         short st = 32767;
         int integer = 2147483647;
         long longer = 1L;
@@ -117,7 +117,7 @@ public class E01Variable {
 //          String str = "JAVA";
 //          System.out.println(str.equals("JAVA"));
 //          System.out.println(str.equals("JAV"));
-          // 문자열 비교는 비교연산자가 아닌 String Class의 equals()메소드를 사용
+        // 문자열 비교는 비교연산자가 아닌 String Class의 equals()메소드를 사용
 
 //        int num1 = 1;
 //        int num2 = 5;
@@ -133,19 +133,109 @@ public class E01Variable {
 //        int result = num1 > num2 ? num1 : num2;
 //        System.out.println(result);
 
-        int height = -155;
-        boolean pass = false;
-        if(height <0){
-            System.out.println("에러입니다.");
-        }else
-        {
-            if(height >= 150){
-                pass = true;
-            }else{
-                pass = false;
+//        int height = -155;
+//        boolean pass = false;
+//        if(height <0){
+//            System.out.println("에러입니다.");
+//        }else
+//        {
+//            if(height >= 150){
+//                pass = true;
+//            }else{
+//                pass = false;
+//            }
+//            System.out.println("당신의 키는 : " +height + "cm 이므로 탑승여부는 : " + pass + "입니다." );
+//        }
+
+//        // 2번
+//        for (int i = 1; i < 11; i++) {
+//            System.out.println(i);
+//        }
+//
+//        // 3번
+//        for (int i = 5; i > 0; i--) {
+//            System.out.println(i);
+//        }
+
+//        // 4번
+//        for (int i = 1; i < 11; i++) {
+//            if(i % 2 == 0) {
+//                System.out.println(i);
+//            }
+//        }
+//
+//        // 5번
+//        for (int i = 1; i < 11; i++) {
+//            if(i % 2 == 1) {
+//                System.out.println(i);
+//            }
+//        }
+
+        // 6번
+//        int sum = 0;
+//        for (int i = 1; i < 6; i++) {
+//            sum += i;
+//        }             System.out.println(sum);
+
+        // 7번
+//        int sum = 0;
+//        for(int i = 0; i < 11; i++) {
+//            sum += i;
+//        }
+//        System.out.println(sum);
+
+        // 8번
+//        int count = 0;
+//        for(int i = 1; i <= 20; i++) {
+//            if (i % 2 == 0) {
+//                count++;
+//            }
+//        }
+//        System.out.println("짝수의 개수: " + count);
+
+        // 13번
+//        int count = 0;
+//
+//        for(int i = 1; i <= 20; i++) {
+//            if(i % 2 == 1) {
+//                count++;
+//            }
+//        } System.out.println("홀수의 개수 :" + count);
+
+        // 14번 문제
+
+//        for (int i = 1; i <= 30; i++) {
+//            if(i % 3 == 0 && i % 2 == 0) {
+//                System.out.println(i);
+//            }
+//        }
+//
+//        // 15번 문제
+//
+//        int sum = 0;
+//
+//        for(int i = 1; i <= 30; i++) {
+//            if (i % 3 == 0 && i % 2 == 0) {
+//                sum += i;
+//            }
+//        } System.out.println(sum);
+//
+//        // 16번 문제
+//
+//        String star = "*****";
+//
+//        for(int i =5; i >= 1; i--) {
+//            System.out.println(star);
+//            star = star.substring(0,star.length() -1);
+//        }
+
+        for(int i = 5; i >= 1; i--) {
+            for(int j = 1; j <= i; j++) {
+                System.out.print("*");
             }
-            System.out.println("당신의 키는 : " +height + "cm 이므로 탑승여부는 : " + pass + "입니다." );
+            System.out.println();
         }
+
 
 
 
